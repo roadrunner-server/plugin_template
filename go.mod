@@ -3,7 +3,6 @@ module github.com/roadrunner-server/plugin_template
 go 1.18
 
 require (
-	github.com/roadrunner-server/api/v2 v2.18.0
 	github.com/roadrunner-server/errors v1.1.2
 	go.uber.org/zap v1.21.0
 )
