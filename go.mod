@@ -1,13 +1,12 @@
 module github.com/roadrunner-server/plugin_template
 
-go 1.18
+go 1.21
+
+toolchain go1.21.5
 
 require (
-	github.com/roadrunner-server/errors v1.1.2
-	go.uber.org/zap v1.21.0
+	github.com/roadrunner-server/errors v1.3.0
+	go.uber.org/zap v1.26.0
 )
 
-require (
-	go.uber.org/atomic v1.9.0 // indirect
-	go.uber.org/multierr v1.8.0 // indirect
-)
+require go.uber.org/multierr v1.11.0 // indirect
